@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<section>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="page-title">VIP Registration</h1>
+
+    <p class="info-text">please complete all required fields</p>
+     <p class="info-text">Double check your email before submitting.</p>
+ <form action="#" method="POST" class="form-card">
+<h2>Event Sign-Up</h2>
+<div class="form-group">
+<!-- 'for' value MUST match 'id' value below --> <label for="userEmail">Email Address:</label>
+<input type="email" id="userEmail" name="userEmail" required>
+</div>
+<div class="form-group">
+<Label for="fulLName">Full Name:</label>
+<input type="text" id="fulLName" name="fulLName" placeholder="e.g., Jane Doe" required>
+</div>
+<!-- Mandatory date picker input -->
+<div class="form-group">
+<label for="birthDate">Date of Birth:</label>
+<input type="date" id="birthDate" name="birthDate" required>
+</div>
+
+<div class="form group">
+    <label for="userNotes">Special Request:</label>
+    <textarea id="userNotes" name="userNotes"rows="3"placeholder="Enter dietary or seating needs..."></textarea>
+</div>
+
+<div class="form-group">
+<label>Ticket Tier:</label>
+<div class="option-group">
+<input type="radio" id="tierPass" name="ticket" value="standard" required>
+<label for="tierPass"> standard</label>
+<input type="radio" id="tierVIP" name="ticket" value="vip">
+<label for="tierVIP"> VIP Pass</label>
+</div>
+</div>
+<!-- Dietary Needs (Checkboxes) -->
+<div class="form-group">
+<Label>Dietary Preferences:</label>
+<div class="option-group">
+<input type="checkbox" id="veg" name="diet" value="vegetarian">
+<label for="veg">Vegetarian</label>
+</div>
+</div>
+<div class="form-group"»
+<label for="tshirt">T-Shirt Size:</label>
+<select id="tshirt" name="tshirt" required>
+<option value="" disabled selected>Select your size...</option>
+<option value="s">Small</option> 
+<option value="m">Medium</option>
+<option value="L">Large</option>
+</select>
+</div>
+<!-- Submit Button -->
+<button type="submit" class="submit-btn">Submit Registration</button>
+</section>
+
+
+
+
+
+
+
+ <!-- CARD 2: PROFILE & SCHEDULE CARD -->
+  <section>
+    <div class="form-card">
+            <div class="profile-header">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Mark_Rober-_Close.png?utm_source=en.wikipedia.org&utm_campaign=index&utm_content=original" alt="Avatar" class="avatar" width="200" height="200"
+                >
+                <h3>Attendee Profile</h3>
+                <h3>Status: Pending Registration</h3>
+                <section id="table-section">
+
+      <table>
+        <thead> 
+           <tr>
+            <th>Time</th>
+            <th>Session</th>
+            <th>Room</th>
+           </tr>
+        </thead>
+        <tbody>
+        <tr>
+          <td>9:00 AM</td>
+          <td>Keynote Speech</td>
+          <td>Main Hall</td>
+        </tr>
+
+        <thead> 
+           <tr>
+            <th>11:00 AM</th>
+            <th>HTML Forms Workshop</th>
+            <th>Lab A</th>
+           </tr>
+        </thead>
+
+         <thead> 
+           <tr>
+            <th>1:00 PM</th>
+            <th>Lunch& Networking</th>
+            <th>Cafeteria</th>
+           </tr>
+
+           <thead> 
+           <tr>
+            <th>2:30 PM</th>
+            <th>CSS Layouts Deep Dive</th>
+            <th>Lab B</th>
+           </tr>
+        </thead>
+
+        </thead>
+        
+        </tbody>
+      
+      </table>
+    </section>
+  </main>
+
+
+                <p> </p>
+            </div>
+
+
+            <!-- SCHEDULE TABLE -->
+            <table>
+               
+            </table>
+        </div>
+
+
+    </div>
+
+
+</body>
+</section>
+</html>
+</form>
+
+
+

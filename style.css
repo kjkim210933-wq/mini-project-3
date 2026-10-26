@@ -1,0 +1,129 @@
+#page-title {
+color: #3e69ae;
+text-align: center; font-size: 24px;
+}
+/* Target a Class using period (.) */
+.info-text {
+color: #27a9bb; font-family: Arial, sans-serif;
+font-size: 14px;
+}
+/* Main Form Card Wrapper */
+.form-card {
+background-color: #178dcd; width: 350px; padding: 24px; border-radius: 12px;
+box-shadow: 0 4px 6px Igba(0, 0,
+6, 0.1);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+/* Vertical Stacking for Label + Input */
+.form-group { display: flex;
+flex-direction: column; margin-bottom: 16px;
+}
+label {
+    font-weight: bold;
+    margin-bottom: 6px;
+    color:#ffffff
+}
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select,
+textarea {
+    padding: 10px;
+    border: 2px solid #5da4fb;
+    border-radius: 6px;
+    font-size: 14px;
+    background-color: #02f2ff;
+    color: #274a9c;
+    transition: border-color 0.2 ease;
+    font-family: inherit;
+    resize: vertical;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="date"]:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color:rgb(202, 127, 255);
+    box-shadow:0 12px 20px black;
+}
+
+.submit-btn {
+    width: 350px;
+    background-color:aliceblue;
+    color: #9f2bd1;
+    padding:  12px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.2s ease;
+}
+.sumbmit-btn:hover {
+    background-color:#178dcd
+}
+body {
+    background-color:rgb(5, 49, 87);
+    color:#274a9c;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.option-group { display: flex; align-items: center;
+gap: 10px; margin-top: 4px;}
+
+.form-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, .25)
+}
+table {
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-collapse: collapse;
+}
+
+
+.option-group {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 4px;
+    text-align: center;
+}
+
+
+table {
+  width: 100%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 2px solid black;
+}
+
+
+.avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-items:center;
+    
+}
+
+.profile-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+
+
+
+
