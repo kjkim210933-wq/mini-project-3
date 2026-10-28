@@ -121,6 +121,11 @@ th, td {
     align-items: center;
 }
 
+tr:nth-child(even) {
+  background-color: #ee5858;}
+  tr:hover { background-color: #2664b6;
+} 
+
 
 
 
